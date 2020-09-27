@@ -1,0 +1,16 @@
+title: lammps
+description: MD simulation
+template:
+  repo: lammps-template
+  name: lammps
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
