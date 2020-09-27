@@ -1,0 +1,2 @@
+# lammps-course
+MD simulation
